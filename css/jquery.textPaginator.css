@@ -1,0 +1,44 @@
+/* 
+    Document   : textPaginator
+    Created on : 13 nov. 2012, 20:44:29
+    Author     : Erwan Trémiot
+    Description:
+        Defaults style classes for textPaginator jQuery plugin.
+*/
+.pagination{
+	overflow: hidden;
+	display: block;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	font-size: 10px;
+}
+
+.pagination li{
+	display: block;
+	margin-right: 5px;
+	float: left;
+}
+
+.pagination li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: #282d34;
+	width: 20px;
+    cursor: pointer;
+	height: 20px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	background: url(../../../img/bg/patterns/obl-1x1-light.png);
+}
+
+.pagination li:hover a,
+.pagination li.active a{
+	color: #fff;
+	background: #282d34 url(../../../img/bg/patterns/obl-1x1-light.png);	
+}
